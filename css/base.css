@@ -9,7 +9,11 @@ h1, h2, h3 {
 	text-align: left;
 }
 p {
-	margin: 30px;
+	margin: 60px;
+}
+div {
+		padding: 30px;
+		background: white;
 }
 input {
 		border-radius: 4px;
