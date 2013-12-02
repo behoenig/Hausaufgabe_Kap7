@@ -7,9 +7,10 @@ body {
 }
 h1, h2, h3 {
 	text-align: left;
+	margin-left: 30px;
 }
 p {
-	margin: 60px;
+	margin: 30px;
 }
 div {
 		padding: 30px;
