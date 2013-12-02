@@ -3,34 +3,33 @@
 <html lang="de" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<title>Hausaufgabe: Für die deutsche Wikipedia ein barrierefreies Webformular für die Suche nach Artikeln entwickeln.</title>
+<title>Hausaufgabe Kapitel 7</title>
 <link rel="stylesheet" href="css/base.css" />
 </head>
  
 <body>
 <h1>Web-Engineering I: Grundlagen der Web-Entwicklung</h1>
-<h2>Hausaufgabe zum 09.12.2013</h2>
+<h2>Hausaufgabe Kapitel 7 zum 09.12.2013</h2>
 <h3>Für die deutsche Wikipedia ein barrierefreies Webformular für die Suche nach Artikeln entwickeln.</h3>
 
-
-<a href="http://www.w3.org/WAI/WCAG1AAA-Conformance"
+<p>
+<a href="http://wave.webaim.org/report?url=http://heinzberndhoenig03.cloudcontrolled.com"
       title="Explanation of Level Triple-A Conformance">
   <img height="32" width="88" 
-          src="http://www.w3.org/WAI/wcag1AAA"
+          src="http://www.w3.org/WAI/wcag2AAA.gif"
           alt="Level Triple-A conformance icon, 
-          W3C-WAI Web Content Accessibility Guidelines 1.0"></a>
-
+          W3C-WAI Web Content Accessibility Guidelines 2.0"></a>
+ 
 </p>
   
 
 <form action="http://de.wikipedia.org/wiki/Spezial:Suche">
    <fieldset>
-      <legend>Suchen</legend>
-      <label for="search" class="left">Suchen</label>
-      <input type="text" id="search"  name="search" size="100" value="" />
-      <br />
-      <input type="submit" name="go" value="Artikel"/>
-      <input type="submit" name="fulltext" value="Volltext" />
+      
+      <label for="search">In der deuschen Wikipedia suchen</label>
+      <input type="text" id="search"  name="search" size="50" value="" />
+      
+      
       
       <button type="submit" class="left" name="go" value="Artikel">Arktikel suchen </button>
       <button type="submit" class="right" name="fulltext" value="Volltext">Volltext suchen </button>
